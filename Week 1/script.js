@@ -144,4 +144,145 @@
 
 // console.log(finalbill)
 
+// let unit  = Number(prompt("Enter units"))
+
+// if(unit>0 && unit<=100){
+//   console.log((unit*4.2))
+// }
+// else if(unit>101 && unit<=200){
+//    console.log((100*4.2)+(unit-100)*6)
+// }
+// else if(unit>201 && unit<=400){
+//    console.log((100*4.2)+(100*6)+(unit-200)*8)
+// }
+// else{
+//      console.log((100*4.2)+(100*6)+(200*8)+(unit-400)*13)
+// }
+
+// let letter = prompt("Enter Alphabate").toLowerCase()
+
+// let vowel = 0 , consonent = 0
+
+// for(let i = 0; i<=letter.length ; i++ ){
+//   let char =   letter.charAt(i)
+//   console.log(char)
+
+//   switch(char){
+//      case  "a" :
+//      case  "e" :
+//      case  "i" :
+//      case  "o" :
+//      case  "u" :
+//      vowel++
+//      break     
+//   }
+// }
+// console.log(vowel)
+
+// let int = Number(prompt("Enter a number"))
+
+// if(int){
+//     console.log("Hello World")
+// }else{
+//     console.log("Please enter a true value")
+// }
+
+// let n  = prompt("Enter a Number")
+
+// for(let i = 0 ; i<=n ; i++){
+//     console.log(i)
+// }
+
+
+// let n  = prompt("Enter a Number")
+
+// for(let i = n ; i>=0 ; i--){
+//     console.log(i)
+// }
+
+
+// let n  = prompt("Enter a Number")
+
+// for(let i = 1 ; i<=10 ; i++){
+//     console.log(` ${n}*${i} = ${n*i}`)
+// }
+
+
+// let n  = prompt("Enter a Number")
+
+// let sum = 0
+
+// for( let i = 0 ; i<=n ; i++){
+//      sum = sum+i
+// }
+// console.log(sum)
+
+
+// let n  = prompt("Enter a Number")
+
+// let fac = 1
+
+// for( let i = 1 ; i<=n ; i++){
+//      fac = fac*i
+// }
+// console.log(fac)
+
+
+// let n  = prompt("Enter a Number")
+
+// let sumEven = 0
+// let sumOdd = 0
+
+
+// for(let i = 0 ; i<=n ; i++){
+//    if(n%i === 0){
+//       if(i%2===0){
+//          console.log("Even",i)
+//          sumEven = sumEven+i
+//       }else{
+//          sumEven = sumOdd+i
+//       }
+//    }
+// }
+
+// console.log(sumEven)
+// console.log(sumOdd)
+
+
+// let n  = prompt("Enter a Number") //50
+// let total = 0;
+
+// for(let i = 1 ; i<=n ; i++){
+//    if(n%i === 0){
+//    total += i;
+//    }
+// }
+// console.log(total)
+
+
+// /* have Not Completed */ 
+//  let n  = prompt("Enter a Number") //50
+
+// for(let i = 1 ; i<=n ; i++){
+
+//    console.log(i)
+//    console.log(n)
+
+//    if(n%i === 0){
+//       console.log(i)
+//    }else{
+//       console.log(i)
+//    }   
+// }
+
+// let input1 =Number( prompt("Enter a number first"))
+// let input2 =Number( prompt("Enter a number second"))
+
+// console.log(Math.pow(input1,input2))
+
+let num = Number( prompt("Enter a number"))
+
+
+
+
 
