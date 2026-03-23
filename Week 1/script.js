@@ -2,7 +2,6 @@
 // let a = 10
 // let b = 30
 // console.log(a+b)
-         
 
 // let a = 45
 // let b = 17
@@ -18,8 +17,7 @@
 // console.log(x--,x)
 // console.log(--x,x)
 
-
-// let x = 2  // 5 
+// let x = 2  // 5
 // let y = 3   // 2
 // x = x+y //5
 // y = x-y // 5-3 = 2
@@ -41,18 +39,15 @@
 // let  y = 2
 // console.log(` A = ${Math.pow(p*1+r/100,y)}`)
 
-
-
 // s= a+b+c/2
 // A=s⋅(s−a)⋅(s−b)⋅(s−c)
 
 // let a = 5
-// let b = 6 
+// let b = 6
 // let c = 7
 // let s = (a+b+c)/2
 // console.log(s)
 // console.log(`Area = ${Math.sqrt(s*(s-a)*(s-b)*(s-c))}`)
-
 
 // circle =  2*pi*r
 // area =  pi*r*r
@@ -83,7 +78,6 @@
 
 // let gender =  prompt("Enter Your Gender")
 //  console.log( gender.toLowerCase() === "male" ? "Good Morning sir" : gender.toLowerCase() === "female" ? "Good morning mam" :" Enter valid gender")
-
 
 // let number = Number(prompt("Enter A number"))
 // console.log(number%2===0?"Number is  Even ": "number is odd ")
@@ -130,7 +124,6 @@
 
 // console.log(Math.max(a,b,c))
 
-
 // let year = prompt("Enter a year to find a leap year")
 // console.log((year%4 === 0) && (year%100 !==0 ) || (year%400 === 0)? `This is leap year ${year}`:`This is not leap year ${year}` )
 
@@ -174,7 +167,7 @@
 //      case  "o" :
 //      case  "u" :
 //      vowel++
-//      break     
+//      break
 //   }
 // }
 // console.log(vowel)
@@ -193,20 +186,17 @@
 //     console.log(i)
 // }
 
-
 // let n  = prompt("Enter a Number")
 
 // for(let i = n ; i>=0 ; i--){
 //     console.log(i)
 // }
 
-
 // let n  = prompt("Enter a Number")
 
 // for(let i = 1 ; i<=10 ; i++){
 //     console.log(` ${n}*${i} = ${n*i}`)
 // }
-
 
 // let n  = prompt("Enter a Number")
 
@@ -217,7 +207,6 @@
 // }
 // console.log(sum)
 
-
 // let n  = prompt("Enter a Number")
 
 // let fac = 1
@@ -227,12 +216,10 @@
 // }
 // console.log(fac)
 
-
 // let n  = prompt("Enter a Number")
 
 // let sumEven = 0
 // let sumOdd = 0
-
 
 // for(let i = 0 ; i<=n ; i++){
 //    if(n%i === 0){
@@ -248,7 +235,6 @@
 // console.log(sumEven)
 // console.log(sumOdd)
 
-
 // let n  = prompt("Enter a Number") //50
 // let total = 0;
 
@@ -259,30 +245,120 @@
 // }
 // console.log(total)
 
+//  let n  = Number(prompt("Enter a Number") )
+//  let count = 0
 
-// /* have Not Completed */ 
-//  let n  = prompt("Enter a Number") //50
-
-// for(let i = 1 ; i<=n ; i++){
-
-//    console.log(i)
-//    console.log(n)
-
-//    if(n%i === 0){
-//       console.log(i)
-//    }else{
-//       console.log(i)
-//    }   
+//  for(let i = 2 ; i<=n/2 ; i++){
+//     if(n%i==0) {
+//         count++
+//     }
 // }
+// if(count == 0){ console.log("Prime numebr")}
+//     else {
+//         console.log("Not a prime number")
+//     }
 
 // let input1 =Number( prompt("Enter a number first"))
 // let input2 =Number( prompt("Enter a number second"))
 
 // console.log(Math.pow(input1,input2))
 
-let num = Number( prompt("Enter a number"))
+// let num = Number( prompt("Enter a number"))
+//   123 out - 321
+
+// let n = Number(prompt("Enter a number"))
+
+// let rem = 0;
+// let val = 0
+// while(n>0){
+//     rem = (rem*10)+(n%10)
+//     val = n%10
+//     for(let i = val ; i<=val ; i++){
+//        console.log(val)
+//     }
+//     n = Math.floor(n/10)
+// }
+// console.log(rem)
+
+// 9+3+6 = 18
+
+// let n = Number(prompt("Enter a number"))
+
+// let rem = 0
+// let add = 0
+
+// while(n>0){
+
+//     rem = (rem*10)+(n%10)
+//     add = add + n%10  // current value
+//     n = Math.floor(n/10)
+
+// }
+// console.log(add)
+
+// let n = Number(prompt("Enter a number"))
+
+// let rem = 0
+
+// while(n>0){
+//   rem = (rem*10)+(n%10)
+//   n = Math.floor(n/10)
+// }
+
+// console.log(rem)
+
+// let n = Number(prompt("Enter a number"))
+// let usern = n
+// let rem = 0
+
+// while(n>0){
+//   rem = (rem*10)+(n%10)
+//   n = Math.floor(n/10)
+// }
+
+// if(usern === rem){
+//     console.log("It's a Palindromic Number")
+// }else{
+//     console.log("It's not a Palindromic Number")
+// }
+// console.log(usern)
+// console.log(rem)
+
+// do{
+// let n = Number(prompt("Enter a number"))
+//    if(n !==3){
+//     console.log("try again")
+//    }else{
+//     console.log("yes match the number")
+
+//    }
+// }while(n !==3)
 
 
+// let valu = prompt("Enter your choise add,sub,multi");
 
+// switch (valu === "exit" || valu === "sub" || valu === "add") {
+//   case !valu === "exit" || !valu === "sub" || !valu === "add":
+//     {
+//       console.log("Enter valid state");
+//     }
+//     break;
+
+//   case valu === "add":
+//     let first = Number(prompt("Enter a first number for add"));
+//     let second = Number(prompt("Enter a second number for add"));
+//     console.log(first + second);
+//     break;
+
+//   case valu === "sub":
+//     let firstV = Number(prompt("Enter a first number for sub"));
+//     let secondV = Number(prompt("Enter a second number for sub"));
+//     console.log(firstV - secondV);
+//     break;
+
+//   case valu === "exit":
+//     console.log("You have been exits for restart enter 10");
+//     break;
+// }
 
 
