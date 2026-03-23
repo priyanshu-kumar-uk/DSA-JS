@@ -361,4 +361,7 @@
 //     break;
 // }
 
+do{
+ let n = prompt("Enter a number")
 
+}while()
