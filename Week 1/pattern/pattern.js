@@ -97,4 +97,14 @@ let prompt = require("prompt-sync")();
 //   console.log(" ");
 // }
 
-// 38,39,44,45  pending
+// 39,  pending
+
+
+let n = Number(prompt("Enter a Number"))
+
+let square = n*n
+let copy =  n
+
+if(square.toString().endsWith(copy.toString()))console.log("AutoPhormic Number")
+  else{
+console.log("Not a autoPhormic number")}

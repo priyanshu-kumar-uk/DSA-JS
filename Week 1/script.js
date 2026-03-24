@@ -412,3 +412,65 @@
 //        break
 //   default : console.log("This is consonant")
 // }
+
+
+// let computer;
+// let guess;
+
+
+// do{
+//  computer = Math.floor(Math.random()*10)
+//  guess = Number(prompt("Enter a number"))
+ 
+//  console.log(computer)
+
+//   if(computer===guess){
+//     console.log("You Won The Game")
+//   }else{
+//     console.log("Please try again")
+//   }
+
+// }while(guess !==computer)
+
+
+// let again;
+
+// do{
+
+// let menu =  prompt("Enter a Menu ,Pizza,Burger,Coke = ")
+// console.log(typeof(menu))
+
+// switch(menu =="pizza" || menu=="burger" || menu=="coke"){
+     
+//     case  menu=="pizza": 
+//     let p = Number(prompt("Enter a pizza Quantity = "))
+//      console.log(`${menu} Bill = ${p*99}`)
+//     break
+
+//     case  menu== "burger":
+//     let b =   Number(prompt("Enter a burger Quantity  = ")) 
+//       console.log(`${menu} Bill = ${b*40}`)
+//     break
+
+//     default : again = Number(prompt("Resatrt For Menu Enter a 7 = "))
+// }
+
+// }while(again===7)
+
+// let n = Number(prompt("Enter a Numebr"))
+// let copy = n
+// let ans = 0
+// while(n>0){
+//   let dig = n%10
+//   let fact = 1
+//   for(let i  = 1 ; i<=dig ; i++){
+//      fact  = fact*i
+//   }
+//   ans = ans+fact
+//   n = Math.floor(n/10)
+// }
+
+// if(copy===ans) console.log("Strong number")
+//   else{
+// console.log("Not a Strong Number")}
+
