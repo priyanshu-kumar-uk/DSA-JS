@@ -324,16 +324,21 @@
 // console.log(usern)
 // console.log(rem)
 
+// let n
 // do{
-// let n = Number(prompt("Enter a number"))
-//    if(n !==3){
-//     console.log("try again")
-//    }else{
-//     console.log("yes match the number")
+//      n = Number(prompt("Enter a right number"))
 
-//    }
-// }while(n !==3)
+//      if(n===3){
+//          console.log("Yes this is right number",n)
+//         }else{
+//          console.log("Hello")
+//      }
 
+// }while(n===3)
+
+
+// let a;
+// do{
 
 // let valu = prompt("Enter your choise add,sub,multi");
 
@@ -345,8 +350,8 @@
 //     break;
 
 //   case valu === "add":
-//     let first = Number(prompt("Enter a first number for add"));
-//     let second = Number(prompt("Enter a second number for add"));
+//     let first = Number(prompt("Enter a first number for add "));
+//     let second = Number(prompt("Enter a second number for add "));
 //     console.log(first + second);
 //     break;
 
@@ -357,11 +362,53 @@
 //     break;
 
 //   case valu === "exit":
-//     console.log("You have been exits for restart enter 10");
+//     console.log("You have been exits ");
+//      a = prompt("Do want to continue Enter yes")
 //     break;
+
+//     default : console.log("You are exits completly this game")
 // }
 
-// do{
-//  let n = prompt("Enter a number")
+// }while(a==="yes")
 
-// }while()
+// let week = Number(prompt("Enter a week number"));
+
+// switch (week) {
+//   case 1:
+//     console.log("Sunday");
+//     break;
+//   case 2:
+//     console.log("Monday");
+//     break;
+//   case 3:
+//     console.log("Tuesday");
+//     break;
+//   case 4:
+//     console.log("Wednesday");
+//   case 5:
+//     console.log("Thusresday");
+//     break;
+//   case 6:
+//     console.log("Friday");
+//     break;
+//   case 7:
+//     console.log("Saturday");
+//     break
+//     default : console.log("Please Enter a valid Week day")
+// }
+
+
+// let alphabate = prompt("Enter a  alphabate ")
+
+// switch(alphabate){
+
+//   case  "a":
+//   case  "i":
+//   case  "o":
+//   case  "u":
+//   case  "e":
+
+//   console.log("This is vowel")
+//        break
+//   default : console.log("This is consonant")
+// }
