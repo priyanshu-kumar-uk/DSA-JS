@@ -105,6 +105,6 @@ let n = Number(prompt("Enter a Number"))
 let square = n*n
 let copy =  n
 
-if(square.toString().endsWith(copy.toString()))console.log("AutoPhormic Number")
+if(square.toString().endsWith(copy.toString()))console.log("Yes this is AutoPhormic Number")
   else{
-console.log("Not a autoPhormic number")}
+console.log("Not a autoPhormic numbers")}
