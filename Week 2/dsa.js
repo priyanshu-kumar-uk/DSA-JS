@@ -111,3 +111,63 @@ let prompt = require("prompt-sync")();
 // }
 // console.log(arr)
 
+// Q.61
+
+// let arr = [20,45,76,39]
+
+// let i = 0 , j = arr.length-1
+// console.log(i)
+
+// while(i<j){
+//     let copy  = arr[i]  // arr[0] = 20
+//     arr[i] = arr[j]   //arr[1] = 20 = 39  first value 
+//     arr[j] = copy // arr[3]  = 20   deside last value  
+//     j--   // 2
+//     i++ //1
+// }
+
+// console.log(arr)
+
+// 62
+
+// let n = Number(prompt("Enter a number = "))
+// let arr = [30,48,57,92,95,38]
+
+// let idx = -7
+
+// for(let i = 0 ; i<arr.length ; i++){
+
+//     if(n == arr[i]){
+//         idx  = i  
+//     }
+
+// }
+
+// console.log(idx== -7 ? "not found" : "Index is = " + idx)
+
+// Q. 63  Binary Search. If element found print the index, else -1\
+// What happening here loop staps bhut kaam ho jate hai bhut kam bar code chalta hai this is optimize way of finding a index of any value
+
+// let n = Number(prompt("Enter a number = "))
+
+// let arr = [20,38,45,49,50,80]
+
+// let st = 0
+// let en = arr.length-1
+// let idx = -1
+
+// while(st<=en){
+
+//     let mid = Math.floor((st+en)/2)   //Check mid index value S-1
+
+//     if(arr[mid] == n){      //n === mid hai so finds a value of index
+//        idx = mid
+//         break
+//     }
+//     else if(arr[mid]<n) st = mid+1         // if value grater than of mid value perform that  increes by 1 and each step will have changed a starting point of index
+//     else if(arr[mid]>n) en = mid-1 ,console.log(mid-1)    //if value less than of mid value perform that  l decree by 1 and each step will have changed a ending point of index
+// }
+
+// console.log(idx== -1 ? "not found" : "Index is = " + idx)
+
+
