@@ -170,4 +170,43 @@ let prompt = require("prompt-sync")();
 
 // console.log(idx== -1 ? "not found" : "Index is = " + idx)
 
+// Q.64
+
+// let arr = [56,-35,23,-55,24,-95]  
+
+// let i = 0
+// let j = 0
+
+// while(i<arr.length){
+
+//     if(arr[i] <0){   // arr[1] =  0===0
+//         temp  = arr[i]  // temp  = 0
+//         arr[i] = arr[j]   // 0 = 0, 0
+//         arr[j] = temp // 0 = 0 , 0
+//         j++
+//     }
+//     i++
+// }
+// console.log(arr)
+
+// Q. 66
+
+// let t = Number(prompt("Enter a target number = "))
+// let arr = [1,2,3,7,5]
+
+// let count = 0
+// for(let i = 0 ; i<arr.length ; i++){ // i, 2
+//     let sum = 0
+   
+//     for(let j = i ; j<arr.length; j++){
+//         sum = sum+arr[j]      //  13+5 , 
+
+//         if(sum === t){  // 18 === 12
+//             count++
+//         }
+
+//     }
+// }
+
+// console.log(count)
 
