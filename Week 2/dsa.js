@@ -1,4 +1,4 @@
-let prompt = require("prompt-sync")();  
+let prompt = require("prompt-sync")();
 
 
 /*Q.54 */
@@ -197,7 +197,7 @@ let prompt = require("prompt-sync")();
 // let count = 0
 // for(let i = 0 ; i<arr.length ; i++){ // i, 2
 //     let sum = 0
-   
+
 //     for(let j = i ; j<arr.length; j++){
 //         sum = sum+arr[j]      //  13+5 , 
 
@@ -209,4 +209,68 @@ let prompt = require("prompt-sync")();
 // }
 
 // console.log(count)
+
+// Q.67
+
+// function strongN(n){
+
+// let copy = n
+// let ans = 0
+// while(n>0){
+//   let dig = n%10
+//   let fact = 1
+//   for(let i  = 1 ; i<=dig ; i++){
+//      fact  = fact*i
+//   }
+//   ans = ans+fact
+//   n = Math.floor(n/10)
+// }
+
+// return ans===copy
+
+
+// }
+
+// let data = strongN(145)
+
+// console.log(data)
+
+// Q.68 
+
+// function number(n){
+
+//     let copy = n
+
+//     let revrese = 0
+//     while(n>0){
+//         let one = n%10
+//         revrese = revrese*10+one
+//         n = Math.floor(n/10)
+//     }
+
+//     return revrese === copy
+
+// }
+
+// let data = number(1221)
+// console.log(data)
+
+// Q.69
+// function concat(arr1,arr2) {
+//     let newarr = []
+
+//     for (let i = 0; i <= arr1.length - 1; i++) {
+//         newarr.push(arr1[i])
+//     }
+
+//     for (let j = 0; j <= arr2.length - 1; j++) {
+//         newarr.push(arr2[j])
+//     }
+
+//     return newarr
+
+// }
+
+// let data  = concat([1, 2, 3],[4, 5, 6])
+// console.log(data)
 
