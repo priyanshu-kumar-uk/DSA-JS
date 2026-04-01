@@ -274,3 +274,66 @@ let prompt = require("prompt-sync")();
 // let data  = concat([1, 2, 3],[4, 5, 6])
 // console.log(data)
 
+// Q.70 
+
+// let  arr = [0, 2, 1, 5, 3, 4]
+// let arr1 =  []
+
+// for(let i = 0 ; i<=arr.length-1 ; i++){
+
+//      arr1[i] = arr[arr[i]]   // val convert-- idx ,   0 = 0, 2 = 1 , 1 = 2, 5 = 4 , 3 = 5 , 4 = 3
+// }
+// console.log(arr1)
+
+// Q. 71
+
+// let arr = [1,3,3,4]
+
+// let n = arr.length-1
+// let d = 0
+
+// let gap = 0
+// let sum = 0
+
+// while(d<=n){
+
+//    gap = arr[d] // 1
+
+//     for(let i = d ; i<=arr.length-1 ; i++){
+//          sum = sum + Math.abs(gap-arr[i])  // 1-1 = 0, 1-3  = 2 , 1-3 = 2 // 0 + 0 = 0,  = 2+2 = 4+3 = 7 , 3-3 = 0, 7 , 3-4 = 1+7 = 8, 
+//     }
+// d++
+// }
+// console.log(sum)
+
+// Q .72
+
+// let arr1 = ['a', 'c', 'b', 'a', 'c']   // 2+3, 5
+// let arr2 = [4, 2, 7, 1, 3]
+
+// let pairsA = 0
+// let pairsc = 0
+// let pairsb = 0
+
+
+
+// for(let i = 0; i<arr1.length ; i++){
+
+//   let a = i
+
+//     for(let j = i ; j<arr2.length ; j++){
+//        if(a === j && arr1[j]==="a"){ //  0 === 0 
+//         pairsA = pairsA+arr2[j]     //  
+//        }  else if(a === j && arr1[j]==="c"){
+//         pairsc  = pairsc + arr2[j]
+//        }else if(a === j && arr1[j]==="b"){
+//         pairsb  = pairsb + arr2[j]
+//        }
+//     }
+// }
+// console.log("a = ",pairsA)
+// console.log("c = ",pairsc)
+// console.log("b = ",pairsb)
+
+
+// Q. 73
