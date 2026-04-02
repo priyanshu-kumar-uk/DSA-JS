@@ -336,4 +336,8 @@ let prompt = require("prompt-sync")();
 // console.log("b = ",pairsb)
 
 
-// Q. 73
+// Q. 73   
+
+function(){
+    
+}
