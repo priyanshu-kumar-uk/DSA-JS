@@ -338,6 +338,160 @@ let prompt = require("prompt-sync")();
 
 // Q. 73   
 
-function(){
+// let arr = [2, 3, 4, 5, 6]
+
+// let newarr = []
+//  newarr[0] = arr[0]*arr[1]
+//  let n = arr.length
+
+//  for(let i = 1 ; i<= arr.length-1 ; i++){
+//      newarr[i] = arr[i-1]*arr[i+1]
+//     }
+//      newarr[n-1] = arr[n-1]*arr[n-2]  
+//     console.log(newarr)
+
+// Q.74
+
+// let arr = [2, 3, 5, 4, 1]
+
+// let step = 0
+// while(arr.length>0){
+//     let max = arr[0]  // 5
+//     let idx = 0
+// for (let i = 1; i<arr.length ; i++) {
+//     if (arr[i] > max) {  //  2>0 
+//         max = arr[i]
+//         idx = i 
+//     }
+// }
+//  arr.splice(idx,arr.length-idx)   // 3 , 5-3 = 2 
+//     step++
+// }
+
+// console.log(arr)
+// console.log(step)
+
+// Q.75
+
+// let arr = [1, 2, 1, 2, 1, 3]
+
+// let left = 0
+// let right = 0
+// let mid = arr.length / 2
+// let check = 0
+
+
+// for (let i = 0; i < mid; i++) {
+//     left = left + arr[i]
+// }
+
+// for (let i = mid; i < arr.length; i++) {
+//     right = right + arr[i]
+// }
+
+// if(left>right){
+//      check = left-right
+//      right = right+check
+//     console.log(check)
+// }else if(right>left){
+//      check  = right-left
+//      left = left+check
+// }
+// console.log(left)
+// console.log(right)
+
+// Q . 76
+
+// let arr = [7, 2, 9, 1, 5, 3]
+// let mid = arr.length / 2
+// let small = arr[0]  //
+// for (let i = 1; i <= mid - 1; i++) {
+
+//     if (arr[i] < small) {  // 9<7 
+//         arr[0] = arr[i]
+//         arr[i] = small
+//     }
+// }
+// // let arr = [7, 2, 9, 1, 5, 3]
+
+// let n = arr.length
+
+// for (let i = mid; i < n; i++) {
+//     for (let j = i + 1; j < n; j++) {
+//         if (arr[i] < arr[j]) {  // 5>1  
+//             let temp = arr[i]
+//             arr[i] = arr[j]   //  1=5 
+//             arr[j] = temp
+//         }
+//     }
+// }
+
+// console.log(arr)
+
+// Q . 77
+
+// let arr = [3, 8, 12, 5]
+// let sum = 0 
+// arr.sort((a,b)=>{
+//     return a-b
+// })
+
+// for(let i = 0 ; i<arr.length-1 ; i++){
+//     sum = sum+Math.abs(arr[i]-arr[i+1])
+// }
+// console.log(arr)
+// console.log(sum)
+
+//  Q.79
+// let arr = [1,2,2,1]
+
+// let prev =  ""
+// arr.sort((a,b)=> a-b)
+// for(let i= 0 ; i<=arr.length-1 ; i+=2){
     
-}
+//  if(arr[i] === arr[i+1]){ // 0 === 1 , 2===3
+//     prev = "true"
+//  }else{
+//     prev = "false"
+//     break
+//  }
+
+// }
+// console.log(prev)
+
+// Q . 79  
+
+// let arr = [1,2,2,1]
+
+// let prev =  ""
+// arr.sort((a,b)=> a-b)
+// for(let i= 0 ; i<=arr.length-1 ; i+=2){
+    
+//  if(arr[i] === arr[i+1]){ // 0 === 1 , 2===3
+//     prev = "true"
+//  }else{
+//     prev = "false"
+//     break
+//  }
+
+// }
+// console.log(prev)
+
+// Q .80 
+// let arr = [3, 1, 2, 2, 2, 1, 3]
+// let k = 2
+
+// let count = 0
+
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//         if (arr[i] === arr[j] && (i * j) % k === 0) {
+//             count++
+//         }
+//     }
+// }
+
+// console.log(count)
+
+// Q. 81
+
