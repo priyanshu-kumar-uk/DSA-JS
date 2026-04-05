@@ -495,3 +495,234 @@ let prompt = require("prompt-sync")();
 
 // Q. 81
 
+// let arr = [5, 3, 6, 1, 12]
+// let num = 3
+
+// for(let i = 0 ; i<=arr.length-1; i++){
+
+//     if(arr[i]===num){
+//         num = arr[i]
+//         num = num*2
+//     }
+// }
+
+// console.log(num)
+
+// Q .82
+
+// let arr = [0, 2, 3, 4]
+
+// let idx = ``
+
+// for(let i = 0 ; i<=arr.length-1 ; i++){
+//     if(arr[i]===i){
+//      idx = `  ${i} === ${arr[i]}  True`
+//      break
+//     }else{
+//       idx = `Not matched`
+//     }
+
+// }
+
+// console.log(idx)
+
+// Q.83
+
+// let num1 = 2
+// let num2 = 3
+// let count = 0
+
+// while (num1 !== 0 && num2 !== 0) {
+//     if (num1 >= num2) {
+//         num1 = num1 - num2
+//     } else {
+//         num2 = num2 - num1
+//     }
+//     count++
+// }
+// console.log(count)
+
+// Q.84
+
+// let arr = [1, 5, 0, 3, 5]
+
+// let count = 0
+
+// for (let i = 0; i <= arr.length - 1; i++) {
+
+//     if (arr[i] > 0) {
+//         let isDuplicate = false
+
+//         for (let j = 0; j < i; j++) {
+//             if (arr[i] === arr[j]) {
+//                 isDuplicate = true
+//                 break
+//             }
+//         }
+
+//         if (isDuplicate === false) {
+//             count++
+//         }
+//     }
+// }
+
+// console.log(count)
+
+// Q.85
+
+// let arr = [2, 4, 1]
+
+// let mid  = Math.floor(arr.length/2)
+
+
+// if(arr[mid]>arr[mid-1]&&arr[mid]>arr[mid+1]){
+//     console.log("Hill")
+// }else{
+//     console.log("Valley")
+// }
+
+
+// Q.86
+
+// let arr = [2, 5, 6, 9, 10]
+
+// let min = arr[0]
+// let max = arr[0]
+
+// // find min and max
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < min) {
+//         min = arr[i]
+//     }
+//     if (arr[i] > max) {
+//         max = arr[i]
+//     }
+// }
+
+// // find gcd
+// let gcd = 1
+
+// for (let i = 1; i <= min; i++) {
+//     if (min % i === 0 && max % i === 0) {
+//         gcd = i
+//     }
+// }
+
+// console.log(gcd)
+
+// Q.87
+
+// let arr = [-5, 1, 5, 0, -7]
+// let step = 0 
+
+// for(let i = 0 ; i<=arr.length-1; i++){
+//     step =  step+arr[i]
+
+//     arr[i] = step
+// }
+
+
+// console.log(arr)
+
+//  Q.88
+
+// let num = 2932
+
+// let digits = String(num).split('').sort((a,b)=>a-b)
+
+// let num1 = digits[0]*10 + Number(digits[2])
+// let num2 = digits[1]*10 + Number(digits[3])
+
+// let result = num1 + num2
+// console.log(result)
+
+//  Q. 89
+
+// let arr = [4, 1, 2, 3]
+
+// let even = []
+// let odd = []
+
+// // step 1: even aur odd index values alag karo
+// for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 === 0) {
+//         even.push(arr[i])
+//     } else {
+//         odd.push(arr[i])
+//     }
+// }
+
+// // step 2: sort karo
+// even.sort((a, b) => a - b)     // ascending
+// odd.sort((a, b) => b - a)      // descending
+
+// let e = 0
+// let o = 0
+
+// // step 3: wapas array me fill karo
+// for (let i = 0; i < arr.length; i++) {
+//     if (i % 2 === 0) {
+//         arr[i] = even[e]
+//         e++
+//     } else {
+//         arr[i] = odd[o]
+//         o++
+//     }
+// }
+
+// console.log(arr)
+
+// Q.90
+
+// let nums = [1, 3, 5, 2, 4, 8, 2, 2]
+
+// while (nums.length > 1) {
+//     let newArr = []
+
+//     for (let i = 0; i < nums.length / 2; i++) {
+//         if (i % 2 === 0) {
+//             newArr[i] = Math.min(nums[2 * i], nums[2 * i + 1])
+//         } else {
+//             newArr[i] = Math.max(nums[2 * i], nums[2 * i + 1])
+//         }
+//     }
+
+//     nums = newArr
+// }
+
+// console.log(nums[0])
+
+//  Q.91
+
+// let seats = [3, 1, 5]
+// let students = [2, 7, 4]
+
+// seats.sort((a, b) => a - b)
+// students.sort((a, b) => a - b)
+
+// let moves = 0
+
+// for (let i = 0; i < seats.length; i++) {
+//     moves = moves + Math.abs(seats[i] - students[i])
+// }
+
+// console.log(moves)
+
+// Q .92
+
+// let arr =[
+//  [1,2,3],
+//  [4,5,6],
+//  [7,8,9]
+// ]
+// let sum = 0
+
+// for(let i = 0; i<arr.length; i++){
+//     for(let j  = 0 ; j<=arr[i].length-1 ; j++ ){
+
+//         if(i===j||i+j==arr[i].length-1) sum = sum+arr[i][j]
+//     }
+// }
+
+// console.log(sum)
+
