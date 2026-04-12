@@ -728,8 +728,5 @@ let prompt = require("prompt-sync")();
 
 // Q.93
 
-let user = function (){
-    console.log("I am the user")
-}
 
 
