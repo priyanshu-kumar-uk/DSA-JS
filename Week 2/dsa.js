@@ -726,7 +726,7 @@ let prompt = require("prompt-sync")();
 
 // console.log(sum)
 
-// Q.93
+// Q.93 to 94 Pending
 
 
 
