@@ -448,7 +448,7 @@ let prompt = require("prompt-sync")();
 // let prev =  ""
 // arr.sort((a,b)=> a-b)
 // for(let i= 0 ; i<=arr.length-1 ; i+=2){
-    
+
 //  if(arr[i] === arr[i+1]){ // 0 === 1 , 2===3
 //     prev = "true"
 //  }else{
@@ -466,7 +466,7 @@ let prompt = require("prompt-sync")();
 // let prev =  ""
 // arr.sort((a,b)=> a-b)
 // for(let i= 0 ; i<=arr.length-1 ; i+=2){
-    
+
 //  if(arr[i] === arr[i+1]){ // 0 === 1 , 2===3
 //     prev = "true"
 //  }else{
@@ -726,7 +726,35 @@ let prompt = require("prompt-sync")();
 
 // console.log(sum)
 
-// Q.93 to 94 Pending
+// Q.93 
 
+// let arr = [[1, 2, 3],[4, 5, 6]]
 
+// let row = arr.length ,  col = arr[0].length
+// let arr2 = new Array(col)
+
+// for(let i = 0 ; i<arr2.length ; i++){
+//    arr2[i] = new Array(row)
+// }
+
+// for(let i = 0 ; i<arr.length; i++){
+//     for(let j=0 ; j<arr[i].length ; j++){
+//        arr2[j][i] = arr[i][j]
+//     }
+// }
+
+// console.log(arr2)
+
+// 94. 
+// let arr = [
+//   [1, 2, 3],
+//   [4, 5, 6],
+//   [7, 8, 9]
+// ];
+
+// for(let i = 0 ; i<arr.length ; i++){
+//     arr[i].reverse()
+// }
+
+// console.log(arr)
 
