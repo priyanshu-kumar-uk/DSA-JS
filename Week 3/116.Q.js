@@ -36,3 +36,4 @@ if (!hasLower || !hasUpper || !hasDigit || !hasSpecial) {
 }
 
 console.log(valid);
+
